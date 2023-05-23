@@ -1,0 +1,41 @@
+.di-fl-co{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.di-fl-ro{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.custom-accordion{
+    padding: 30px;
+    margin: 30px;
+    .summary{
+        display: flex;
+    }
+    .avatar{
+        margin-right: 20px;
+    }
+    .di-fl-ro-mar{
+        display: flex;
+        width: 100%;
+        margin: 20px 0px;
+
+        .box{
+            border: 1px solid white;
+            padding: 4px 8px;
+            border-radius: 4px;
+            margin-right: 20px;
+        }
+    }
+}
